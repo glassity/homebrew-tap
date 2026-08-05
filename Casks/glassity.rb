@@ -4,22 +4,22 @@ cask "glassity" do
 
   on_macos do
     on_intel do
-      sha256 "0df73748f7973a32dff870394333678b6fd117d266c3c023081fb3c67c5f96c7"
+      sha256 "e5bf32d7006af04def7ba95183f4e1b2ccd20f6582dcf5e3d146abfc0e7732cb"
       url "https://github.com/glassity/cli/releases/download/v#{version}/glassity_#{version}_darwin_amd64.tar.gz"
     end
     on_arm do
-      sha256 "b35217e4b73d2d8bf8259bc39160a785cd271fa1adefd515f830cac586237a21"
+      sha256 "5be6fbfa390dd72002ffc05be21086c474a4d1c30ed368730a752c145a21f120"
       url "https://github.com/glassity/cli/releases/download/v#{version}/glassity_#{version}_darwin_arm64.tar.gz"
     end
   end
 
   on_linux do
     on_intel do
-      sha256 "bcddb5396b724f6b0767de1573794ab2bd1fca9eeab98b1a8b29e8f4dbb35876"
+      sha256 "6d67dd07ac987be27da1f1c17a61b67e7057c91cbb840138c5a1b3f157fab53d"
       url "https://github.com/glassity/cli/releases/download/v#{version}/glassity_#{version}_linux_amd64.tar.gz"
     end
     on_arm do
-      sha256 "4987d4dfd3beb418422151c990ae40058d0a6c306f63b24572ee041af821db81"
+      sha256 "94d352ed0fdacb31b58bd79b43c3e39697cb503b99b27f6facb9e43bd1adab7b"
       url "https://github.com/glassity/cli/releases/download/v#{version}/glassity_#{version}_linux_arm64.tar.gz"
     end
   end
